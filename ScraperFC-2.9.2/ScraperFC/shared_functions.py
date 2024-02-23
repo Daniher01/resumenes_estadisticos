@@ -512,6 +512,12 @@ def get_source_comp_info(year, league, source):
                 },
             },
             # South America
+            "Conmebol Libertadores":{
+                "id": 384,
+                "seasons": {
+                    "2023": 47974, "2024": 57296
+                    },
+                },
             "Argentina Liga Profesional": {
                 "id": 155,
                 "seasons": {
