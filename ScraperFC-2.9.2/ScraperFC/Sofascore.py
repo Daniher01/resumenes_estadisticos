@@ -271,7 +271,7 @@ class Sofascore:
                 data['player'].apply(pd.Series), data['shirtNumber'], 
                 data['jerseyNumber'], data['position'], data['substitute'], 
                 data['statistics'].apply(pd.Series, dtype=object), 
-                data['captain']
+                #data['captain']
             ]
             df = pd.concat(columns_list, axis=1)
             df['team'] = names[team]
